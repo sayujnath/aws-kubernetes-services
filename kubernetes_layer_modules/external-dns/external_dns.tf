@@ -21,6 +21,14 @@
 # Kubernestes Manifests in Teraform were converted from YAML files using tfk8s
 
 
+#                   This version of the code is incomplete &untested and specially released 
+#                   for non-commecial public consumption. 
+
+#                   For a production ready version,
+#                   please contact the author at info@canditude.com
+#                   Additional middleware is also required in application code to interact
+#                   with the authorizaion servers 
+#
 
 resource "kubernetes_manifest" "serviceaccount_external_dns" {
     manifest = {

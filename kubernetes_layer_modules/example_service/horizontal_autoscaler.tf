@@ -17,6 +17,14 @@
 #     - Horizontal Pod Autoscalar (HPA)
 
 
+#                   This version of the code is incomplete &untested and specially released 
+#                   for non-commecial public consumption. 
+
+#                   For a production ready version,
+#                   please contact the author at info@canditude.com
+#                   Additional middleware is also required in application code to interact
+#                   with the authorizaion servers 
+#
 
 
 resource "kubernetes_horizontal_pod_autoscaler" "example_auto_scaler" {
