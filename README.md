@@ -6,7 +6,7 @@ Create  the necessary infrastructure using AWS AKS to deploy Kubernetes Pods for
 
 ![AWS Architecture Diagram](/infra_layer_architecture.jpg)
 
-This infrastructure uses a two layered architecture as shown in diagram below. Only the code for the kubernetes layer shown is included. This layer is to be deplyed only after the infrastructure layer has been deployed.
+This infrastructure uses a two layered architecture as shown in diagram below. Only the code for the kubernetes layer (pod layer in diagram) shown is included. This layer is to be deployed only after the infrastructure layer has been deployed.  
 ![Terraforming example Design Architecture Diagram](/architecture_design.jpg)
 
 #### PLEASE READ BEFORE DEPLOYMENT
